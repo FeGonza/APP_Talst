@@ -113,7 +113,7 @@ for tarefas in range(len(apontamento['Tarefa - Nome'])):
         sem_opcao=1 
 
 celula_inicial = {'row': 0, 'column': 0, 'column_id': 'Tarefa - Nome', 'row_id': 0 }
-
+celula_inicial2 = {'row': 0, 'column': 0, 'column_id': 'Tarefa - Nome', 'row_id': 1 }
 # Criando HTML
 
 app.layout = html.Div(children=[
